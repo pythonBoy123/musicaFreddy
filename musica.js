@@ -3,22 +3,20 @@ const ana=require("./analisis");
 const scribbel=require("scribbletune");
 const fs=require("fs");
 let archivo;
-try{
+try{//lo convierte en un string
 archivo= fs.readFileSync('datos.txt', 'utf8');
 }
 catch{
 	console.log("coño")
 	archivo="aodfjadpsfiahpqeprqoiu"
 }
-if(archivo=="h"){
-	console.log("no lo logramos")
-}
+
 
 let bass1=ana.bass(archivo);
 
 let patron1=ana.patron(archivo);
 
-function musica(pattron,notas,nombre){  
+function musica(pattron,notas,nombre){  // solo es para generar la cancion y darle un nombre
 
     let n=scribbel.clip({
         notes:notas,
