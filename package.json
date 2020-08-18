@@ -8,8 +8,8 @@
     "start":"musica.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "pythonBoy123",
+  "license": "gnu",
   "dependencies": {
     "scribbletune": "^3.8.0"
   }
