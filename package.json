@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "pythonBoy123",
-  "license": "gnu",
+  "license": "GNU General Public License v3.0",
   "dependencies": {
     "scribbletune": "^3.8.0"
   }
