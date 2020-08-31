@@ -5,7 +5,7 @@
   "main": "musica.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"musica.js"
+    "start":"node musica.js"
   },
   "keywords": [],
   "author": "pythonBoy123",
