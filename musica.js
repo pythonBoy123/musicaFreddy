@@ -1,5 +1,5 @@
 const ana=require("./analisis");
-
+const read=require("readline")
 const scribbel=require("scribbletune");
 const fs=require("fs");
 let archivo;
@@ -25,3 +25,13 @@ function musica(pattron,notas,nombre){  // solo es para generar la cancion y dar
     scribbel.midi(n,nombre);
 }
 musica(patron1,bass1,"cumpleaños cancion para freddy");
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+rl.question("Que nombre quiere ponerle?", (respuesta) => {
+  // TODO: Log the answer in a database
+  musica(patron1,bass1,respuesta);
+  rl.close();
+});
