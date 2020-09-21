@@ -34,18 +34,18 @@ function patron(ni){
     let numeros="1234567890".split("")
     for(let i=0;i<=n.length;i++){
         if(n[i]===" "){
-            s=s+"-"//silence
+            s=s+"-"//silencio
 
         }
         else{
             for(let x=0;x<=abecedario.length;x++){
                 if(n[i]===abecedario[x]){
-                    s=s+"x"// play a note
+                    s=s+"x"//toca una nota
                 }
             }
             for(let y=0;y<=numeros.length;y++){
                 if(n[i]===numeros[y]){
-                s=s+"_"//decay with numbers
+                s=s+"_"//decae
             
             }
         }
