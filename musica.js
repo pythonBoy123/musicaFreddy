@@ -8,7 +8,7 @@ archivo= fs.readFileSync('datos.txt', 'utf8');
 }
 catch{
 	console.log("coño")
-	archivo="aodfjadpsfiahpqeprqoiu"
+	archivo="no quizo funcionar uwu"
 }
 
 
