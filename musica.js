@@ -31,7 +31,7 @@ const rl = readline.createInterface({
 });
 
 rl.question("Que nombre quiere ponerle?", (respuesta) => {
-  // TODO: Log the answer in a database
+  
   musica(patron1,bass1,respuesta);
   rl.close();
 });
