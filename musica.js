@@ -24,7 +24,6 @@ function musica(pattron,notas,nombre){  // solo es para generar la cancion y dar
     });
     scribbel.midi(n,nombre);
 }
-musica(patron1,bass1,"cumpleaños cancion para freddy");
 const rl = read.createInterface({
   input: process.stdin,
   output: process.stdout
